@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@100;200;300;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+.nav {
+  height: 13vh;
+  width: 100%;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  top: 0;
+}
+
+.nav img {
+  height: 100px;
+  width: 100px;
+}
+
+.nav h1 {
+  font-family: 'Prompt', sans-serif;
+}
+
+header {
+  margin-top: 5em;
+}
+
+header img {
+  width: 100%;
+}
+
+.title {
+  font-family: 'Prompt', sans-serif;
+  text-align: center;
+  font-size: 0.6em;
+  margin: 2em 0;
+  margin-top: 12em;
+}
+
+.title-border-bottom {
+  border: 1px solid #000;
+  width: 3%;
+  margin: 0 auto;
+}
+
+.main-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  margin: 7em auto;
+  gap: 5em;
+}
+
+.main-info-text {
+  font-family: 'Prompt', sans-serif;
+  width: 95%;
+}
+
+.main-info-text h1 {
+  font-size: 3em;
+  font-weight: 200;
+  color: #484848;
+}
+
+.main-info-text p {
+  font-weight: 200;
+  font-size: 1.3em;
+  color: #484848;
+}
+
+.main-info-img img {
+  width: 100%;
+}
+
+.objekte {
+  text-align: center;
+}
+
+.objekte a {
+  font-family: 'Prompt', sans-serif;
+  text-decoration: none;
+  color: #708090;
+  border: 1px solid #708090;
+  border-radius: 4em;
+  padding: 1em 2em;
+}
+
+.objekte a:hover {
+  background-color: #101010;
+  color: #fff;
+}
+
+footer {
+  text-align: center;
+  margin-top: 12em;
+  margin-bottom: 3em;
+  color: #000;
+}
+
+footer h1 {
+  font-family: 'Prompt', sans-serif;
+  font-weight: 300;
+}
+
+footer p {
+  font-family: 'PT Serif', serif;
+}
+
+@media screen and (max-width: 992px) {
+  footer {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+/*# sourceMappingURL=style.css.map */
