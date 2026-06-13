@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Projekte | Alpha Wohnen GmbH</title>
+
+  <link rel="icon" type="image/svg+xml" href="/images/logo.svg" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="projekte.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+</head>
+
+<body>
+  <main class="page">
+    <nav class="navbar">
+      <div class="container nav-inner">
+        <a href="index.html" class="brand">
+          <img src="/images/logo.png" alt="Alpha Wohnen Logo" />
+          <span>Alpha<br />Wohnen</span>
+        </a>
+
+        <div class="nav-links">
+          <a href="projekte.html">Projekte</a>
+          <a href="index.html#about">Über uns</a>
+          <a href="index.html#services">Leistungen</a>
+          <a href="index.html#contact">Kontakt</a>
+        </div>
+
+        <button class="menu-toggle" aria-label="Menü öffnen">
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+
+    <div class="menu-overlay">
+      <div class="menu-panel">
+        <div class="menu-top">
+          <a href="index.html" class="brand">
+            <img src="/images/logo.png" alt="Alpha Wohnen Logo" />
+            <span>Alpha<br />Wohnen</span>
+          </a>
+
+          <button class="menu-close" aria-label="Menü schließen">
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+
+        <div class="menu-links">
+          <a href="projekte.html" data-text="Projekte"><span>Projekte</span></a>
+          <a href="index.html#about" data-text="Über uns"><span>Über uns</span></a>
+          <a href="index.html#services" data-text="Leistungen"><span>Leistungen</span></a>
+          <a href="index.html#contact" data-text="Kontakt"><span>Kontakt</span></a>
+        </div>
+
+        <div class="menu-footer">
+          <p>Alpha Wohnen GmbH</p>
+          <span>Speditionstr. 6 · Düsseldorf</span>
+        </div>
+      </div>
+    </div>
+
+    <header class="projects-hero">
+      <div class="container">
+        <p class="kicker reveal">Alpha Wohnen GmbH</p>
+
+        <h1 class="reveal">
+          Aktuelle und kommende Projekte.
+        </h1>
+
+        <p class="projects-intro reveal">
+          Ein Überblick über Immobilienprojekte in Entwicklung, Planung und Vorbereitung.
+        </p>
+      </div>
+    </header>
+
+    <section class="projects-section">
+      <div class="container">
+        <div class="projects-grid">
+
+          <article class="project-card reveal">
+            <div class="project-image">
+              <img src="/images/project-1.webp" alt="Projekt Übach-Palenberg" />
+              <span class="project-status active">Aktuell</span>
+            </div>
+
+            <div class="project-content">
+              <span class="project-number">01</span>
+
+              <h2>Wohnprojekt Übach-Palenberg</h2>
+
+              <p>
+                Entwicklung und Optimierung eines Wohnobjekts mit Fokus auf nachhaltige Wertsteigerung.
+              </p>
+
+              <ul>
+                <li>Standort: Übach-Palenberg</li>
+                <li>Status: In Entwicklung</li>
+                <li>Bereich: Wohnimmobilie</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-image">
+              <img src="/images/project-2.webp" alt="Projekt Düsseldorf" />
+              <span class="project-status upcoming">Kommend</span>
+            </div>
+
+            <div class="project-content">
+              <span class="project-number">02</span>
+
+              <h2>Projekt Düsseldorf</h2>
+
+              <p>
+                Geplantes Immobilienprojekt mit Schwerpunkt auf Ankauf, Analyse und Projektentwicklung.
+              </p>
+
+              <ul>
+                <li>Standort: Düsseldorf</li>
+                <li>Status: In Vorbereitung</li>
+                <li>Bereich: Wohn- & Gewerbeimmobilie</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-image">
+              <img src="/images/project-3.webp" alt="Portfolio Optimierung" />
+              <span class="project-status upcoming">Kommend</span>
+            </div>
+
+            <div class="project-content">
+              <span class="project-number">03</span>
+
+              <h2>Portfolio-Optimierung</h2>
+
+              <p>
+                Strategische Prüfung weiterer Objekte zur langfristigen Verwaltung und Wertentwicklung.
+              </p>
+
+              <ul>
+                <li>Standort: Deutschland</li>
+                <li>Status: Prüfung</li>
+                <li>Bereich: Bestand & Verwaltung</li>
+              </ul>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="projects-cta">
+      <div class="container">
+        <div class="projects-cta-box reveal">
+          <div>
+            <p class="kicker">Projektanfrage</p>
+            <h2>Sie möchten ein Objekt anbieten?</h2>
+          </div>
+
+          <div>
+            <p>
+              Für Immobilien, Grundstücke und Entwicklungsprojekte können Sie uns direkt kontaktieren.
+            </p>
+
+            <a href="mailto:info@alpha-wohnen.de" class="btn">
+              Kontakt aufnehmen
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <p>© 2026 ALPHA WOHNEN GmbH</p>
+
+        <address>
+          Speditionstr. 6<br />
+          Düsseldorf
+        </address>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

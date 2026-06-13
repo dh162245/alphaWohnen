@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/svg+xml" href="/images/logo.svg">
+  <title>Alpha Wohnen GmbH</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+</head>
+
+<body>
+  <main class="page">
+    <nav class="navbar">
+      <div class="container nav-inner">
+        <a href="/" class="brand">
+          <img src="/images/logo.webp" alt="Alpha Wohnen Logo" />
+          <span>Alpha<br />Wohnen</span>
+        </a>
+
+        <div class="nav-links">
+          <a href="/projekte.html">Projekte</a>
+          <a href="#about">Über uns</a>
+          <a href="#services">Leistungen</a>
+          <a href="#contact">Kontakt</a>
+        </div>
+
+        <button class="menu-toggle" aria-label="Menü öffnen">
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+
+    <div class="menu-overlay">
+      <div class="menu-panel">
+        <div class="menu-top">
+          <a href="/" class="brand">
+            <img src="/images/logo.png" alt="Alpha Wohnen Logo" />
+            <span>Alpha<br />Wohnen</span>
+          </a>
+
+          <button class="menu-close" aria-label="Menü schließen">
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+
+        <div class="menu-links">
+          <a href="/projekte" data-text="Projekte"><span>Projekte</span></a>
+          <a href="#about" data-text="Über uns"><span>Über uns</span></a>
+          <a href="#services" data-text="Leistungen"><span>Leistungen</span></a>
+          <a href="#contact" data-text="Kontakt"><span>Kontakt</span></a>
+        </div>
+
+        <div class="menu-footer">
+          <p>Alpha Wohnen GmbH</p>
+          <span>Speditionstr. 6 · Düsseldorf</span>
+        </div>
+      </div>
+    </div>
+
+    <header class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <h1 class="reveal">Alpha Wohnen GmbH</h1>
+
+          <h2 class="hero-subtitle reveal">
+            Immobilien Investment Gesellschaft
+          </h2>
+
+          <p class="hero-text reveal">
+            Ankauf, Entwicklung und Management von Immobilien und Grundstücken.
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <section class="section about-section" id="about">
+      <div class="container about-grid">
+        <article class="about-card reveal">
+          <p class="kicker">Über uns</p>
+
+          <h2>Immobilienprojekte mit klarer Strategie.</h2>
+
+          <p>
+            Die Alpha Wohnen GmbH ist ein aufstrebendes Immobilienunternehmen
+            mit Sitz in Deutschland. Wir sind spezialisiert auf den Ankauf,
+            die Entwicklung und das Management von Wohn- und Gewerbeimmobilien.
+          </p>
+
+          <p>
+            Unser Ziel ist es, Immobilienprojekte zu realisieren,
+            die den Bedürfnissen unserer Kunden entsprechen.
+          </p>
+        </article>
+
+        <article class="about-image reveal">
+          <!-- <h3>Wert entsteht, wenn Vision und Umsetzung zusammenkommen.</h3> -->
+        </article>
+      </div>
+    </section>
+
+    <section class="section services-section" id="services">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="kicker">Leistungen</p>
+
+          <h2>Vom Ankauf bis zur Portfolio-Optimierung.</h2>
+
+          <p>
+            Klarer Fokus auf Immobilien und Grundstücke: Ankauf, Entwicklung,
+            Projektplanung und Management.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card reveal">
+            <span>01</span>
+            <div>
+              <h3>Ankauf von Immobilien</h3>
+              <p>
+                Privat oder über unsere GmbH. Direkter Erwerb von Grundstücken,
+                Wohn- und Gewerbeimmobilien.
+              </p>
+            </div>
+          </article>
+
+          <article class="service-card reveal">
+            <span>02</span>
+            <div>
+              <h3>Eigene Bau- & Entwicklungsteams</h3>
+              <p>Sanierung von Bestandsobjekten und Realisierung von Neubauten.</p>
+            </div>
+          </article>
+
+          <article class="service-card reveal">
+            <span>03</span>
+            <div>
+              <h3>Projektentwicklung</h3>
+              <p>Wertsteigerung durch ganzheitliche Projektplanung.</p>
+            </div>
+          </article>
+
+          <article class="service-card reveal">
+            <span>04</span>
+            <div>
+              <h3>Portfolio-Optimierung</h3>
+              <p>Nachhaltige Verwaltung und strategische Optimierung.</p>
+            </div>
+          </article>
+        </div>
+
+        <a href="/projekte" class="projects-link reveal">
+          Projekte ansehen <span>→</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="section main-cta" id="contact">
+      <div class="container">
+        <div class="cta-box reveal">
+          <div>
+            <p class="kicker">Kontaktieren Sie uns</p>
+
+            <h2>Projekt anfragen.</h2>
+          </div>
+
+          <div>
+            <p>Für Immobilien, Grundstücke und Projektanfragen.</p>
+
+            <a href="mailto:info@alpha-wohnen.de" class="btn">
+              Kontakt aufnehmen
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <p>© 2026 ALPHA WOHNEN GmbH</p>
+
+        <address>
+          Speditionstr. 6<br />
+          Düsseldorf
+        </address>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
