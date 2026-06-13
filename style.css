@@ -292,7 +292,7 @@ p {
   inset: 0;
   background:
     linear-gradient(90deg, rgba(16,18,20,.94), rgba(16,18,20,.68) 40%, rgba(16,18,20,.22) 75%),
-    url("/images/hero.webp");
+    url("./images/hero.webp");
   background-size: cover;
   background-position: center right;
   z-index: 0;
@@ -379,7 +379,7 @@ p {
   min-height: 650px;
   background:
     linear-gradient(180deg, transparent, rgba(17,19,21,.85)),
-    url("/images/about.webp");
+    url("./images/about.webp");
   background-size: cover;
   background-position: center;
   display: flex;
